@@ -1,0 +1,44 @@
+:root {
+    --darkBlue: #00008B;
+    --white: #ffffff;
+    --black: #000000;
+    --yellow: #e4e015;
+}
+ .registerPage {
+    background-color: var(--darkBlue);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+} 
+
+.containerRegister {
+    border-radius: 20px;
+    background-color: var(--yellow);
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerRegister input {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 200px;
+    margin: 5px;
+}
+
+.containerRegister label {
+    font-size: 20px;
+}
+
+.containerRegister button {
+    background-color: var(--black);
+    color: var(--white);
+    border-radius: 5px;
+}

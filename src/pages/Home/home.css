@@ -1,0 +1,50 @@
+:root {
+   --darkBlue: #00008B;
+   --white: #ffffff;
+   --black: #000000;
+   --yellow: #e4e015;
+}
+
+.homePage {
+    margin: 0;
+    background-color: var(--darkBlue);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    color: var(--white);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.containerHome {
+    text-align: center;
+    width: 50vw;
+    height: 60vh;
+    background-color: var(--yellow);
+}
+
+.homePage li {
+    list-style-type: none;
+}
+
+.list {
+    color: var(--white);
+    text-decoration: none;
+    line-height: 40px;
+    padding: 10px 5px;
+    margin: 200px;
+    background-color: #000;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+.list:hover {
+    transition: .5s;
+    background-color: #ffffff;
+    color: var(--black);
+}

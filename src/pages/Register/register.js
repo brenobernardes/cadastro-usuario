@@ -6,6 +6,12 @@ export default function Register () {
 
     let handleChangeInput = (e) => {
         e.preventDefault();
+        var lawyers = JSON.parse(localStorage.getItem('lawyers'));
+        if(lawyers == null) {
+            lawyers = [];
+        }
+        lawyers.push(user);
+        localStorage.setItem('lawyers', JSON.stringify(lawyers));
 
         setUser({name:"", email:"", phone:""})
         console.log(user)
